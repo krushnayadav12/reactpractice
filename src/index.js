@@ -1,17 +1,60 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { createRoot } from "react-dom/client";
+import A from "./A";
+import { B } from "./B";
+import { C } from "./C";
+import D from "./D";
+import E from "./E";
+import { F } from "./F";
+import { G } from "./G";
+import H from "./H";
+import I from "./I";
+import { J } from "./J";
+import K from "./K";
+import { L } from "./L";
+import { M } from "./M";
+import N from "./N";
+import { O } from "./O";
+import P from "./P";
+import { Q } from "./Q";
+import R from "./R";
+import { S } from "./S";
+import T from "./T";
+import U from "./U";
+import { V } from "./V";
+import { W } from "./W";
+import X from "./X";
+import { Y } from "./Y";
+import { Z } from "./Z";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+createRoot(document.getElementById("root")).render(
+    <>
+      <A/ >
+      <B/ >
+      <C/ >
+      <D/ >
+      <E/ >
+      <F/ >
+      <G/ >
+      <H/ >
+      <I/ >
+      <J/ >
+      <K/ >
+      <L/ >
+      <M/ >
+      <N/ >
+      <O/ >
+      <P/ >
+      <Q/ >
+      <R/ >
+      <S/ >
+      <T/ >
+      <U/ >
+      <V/ >
+      <W/ >
+      <X/ >
+      <Y/ >
+      <Z/ >
+
+    </>
+)
